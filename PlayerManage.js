@@ -1,1 +1,1 @@
-var Hero = new MOB.Player(0, 0, 0, 0, 0);
+var Hero = new CLASSES.Player(0, 0, 0, 0, 0);
