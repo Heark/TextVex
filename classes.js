@@ -2,7 +2,7 @@ CLASSES = {
 Player: function(HP, DEF, ATT, MAG, MGD) {
   this.HP = HP;
   this.DEF = DEF;
-  this.ATT = att;
+  this.ATT = ATT;
   this.MAG = MAG;
   this.MGD = MGD;
 },
