@@ -18,6 +18,13 @@ Item: function(NAME, DESC, EFF){
   this.NAME = NAME;
   this.DESC = DESC;
   this.EFF = EFF;
+},
+
+Skill: function(NAME, DESC, DMG, TYPE){
+  this.NAME = NAME;
+  this.DESC = DESC;
+  this.DMG = DMG;
+  this.TYPE = TYPE;
 }
 
 }
