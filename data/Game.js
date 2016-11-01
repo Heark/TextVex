@@ -4,15 +4,13 @@ var game_started = false;
 
 $(document).ready(function() {
     if (game_started == false) {
-        $("body").append("<button id=\"#Start\"> Start </button>");
+        $("body").append("<center><button id=\"#Start\" class=\"btn btn-primary\"> Start </button></center>");
         
     } else {
       // Do nothing...
     }
     $("#Start").click(function(){
         game_started = true;
+        $("body").append( "<center><button id=\"#Walk\"  class=\"btn btn-primary\" > Walk </button></center>" );
     })
-    if(game_started == true) {
-        $("body").append( "<button id=\"#Walk\"> Walk </button>" );
-    }
 })
