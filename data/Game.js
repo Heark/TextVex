@@ -12,4 +12,7 @@ $(document).ready(function() {
     $("#Start").click(function(){
         game_started = true;
     })
+    if(game_started == true) {
+        $("body").append( "<button id=\"#Walk\"> Walk </button>" );
+    }
 })
