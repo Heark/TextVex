@@ -14,6 +14,7 @@ $(document).ready(function() {
             $("body").append( "<center><button id=\"Walk\"  class=\"btn btn-primary\" > Walk </button></center>" );
          game_started = true;
         } else {
+            box.error("You already started!");
         }
         
     })
