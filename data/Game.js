@@ -10,7 +10,11 @@ $(document).ready(function() {
       // Do nothing...
     }
     $("#Start").click(function(){
-        game_started = true;
-        $("body").append( "<center><button id=\"Walk\"  class=\"btn btn-primary\" > Walk </button></center>" );
+        if(game_started == false) {
+            $("body").append( "<center><button id=\"Walk\"  class=\"btn btn-primary\" > Walk </button></center>" );
+         game_started = true;
+        } else {
+        }
+        
     })
 })
