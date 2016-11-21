@@ -15,10 +15,11 @@ Monster: function(NAME, HP, DEF, ATT, MAG, MGD, DRP) {
   this.MGD = MGD;
   this.DRP = DRP;
 },
-Item: function(NAME, DESC, EFF){
+Item: function(NAME, DESC, EFF, USINB){
   this.NAME = NAME;
   this.DESC = DESC;
   this.EFF = EFF;
+  this.USINB = USINB;
 },
 
 Skill: function(NAME, DESC, DMG, TYPE){
@@ -26,6 +27,11 @@ Skill: function(NAME, DESC, DMG, TYPE){
   this.DESC = DESC;
   this.DMG = DMG;
   this.TYPE = TYPE;
-}
+}, 
+Weapon: function(NAME, DESC, BOOST, STAT) {
+  this.NAME = NAME;
+  this.DESC = DESC;
+  this.BOOST = BOOST;
+  this.STAT = STAT;
 
 }
