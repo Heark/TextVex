@@ -6,13 +6,14 @@ Player: function(HP, DEF, ATT, MAG, MGD) {
   this.MAG = MAG;
   this.MGD = MGD;
 },
-Monster: function(NAME, HP, DEF, ATT, MAG, MGD) {
+Monster: function(NAME, HP, DEF, ATT, MAG, MGD, DRP) {
   this.NAME = NAME;
   this.HP = HP;
   this.DEF = DEF;
   this.ATT = ATT;
   this.MAG = MAG;
   this.MGD = MGD;
+  this.DRP = DRP;
 },
 Item: function(NAME, DESC, EFF){
   this.NAME = NAME;
