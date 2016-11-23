@@ -33,5 +33,5 @@ Weapon: function(NAME, DESC, BOOST, STAT) {
   this.DESC = DESC;
   this.BOOST = BOOST;
   this.STAT = STAT;
-
+  }
 }
