@@ -1,3 +1,4 @@
+console.log("Loaded Items");
 // # Items Go Here
 // NAME, DESC, EFF, USINB
 
