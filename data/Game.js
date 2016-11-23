@@ -1,3 +1,4 @@
+console.log("Loaded Game.")
 // #Boolean Variables
 var game_started = false;
 
