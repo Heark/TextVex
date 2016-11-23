@@ -1,3 +1,4 @@
+console.log("Loaded Tools");
 Tools = {
 
 randNum: function(min, max) {
