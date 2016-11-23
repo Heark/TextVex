@@ -1,6 +1,7 @@
 console.log("Loaded Game.")
 // #Boolean Variables
 var game_started = false;
+var gotNum;
 
 
 
@@ -26,7 +27,10 @@ $(document).ready(function() {
     
     // Walk Button
         $("#Walk").click(function(){
-        
+        gotNum = Tools.randNum(1, 200);
+        if(gotNum <= 100 ){
+         // no battle   
+        } else if(gotNum > 200)
         
         })
     // End of Walk Button
