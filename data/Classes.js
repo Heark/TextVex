@@ -1,3 +1,4 @@
+console.log("Loaded Classes");
 CLASSES = {
 Player: function(HP, DEF, ATT, MAG, MGD) {
   this.HP = HP;
