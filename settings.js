@@ -1,3 +1,4 @@
+console.log("Loaded Settings");
 toastr.options = {
     "closeButton": false,
     "debug": false,
