@@ -30,7 +30,9 @@ $(document).ready(function() {
         gotNum = Tools.randNum(1, 200);
         if(gotNum <= 100 ){
          // no battle   
-        } else if(gotNum > 200)
+        } else if(gotNum > 200){
+        callScene.Battle();
+        }
         
         })
     // End of Walk Button
