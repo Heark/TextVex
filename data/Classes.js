@@ -1,6 +1,7 @@
 console.log("Loaded Classes");
 CLASSES = {
-Player: function(HP, DEF, ATT, MAG, MGD) {
+Player: function(LVL, HP, DEF, ATT, MAG, MGD) {
+  this.LVL = LVL;
   this.HP = HP;
   this.DEF = DEF;
   this.ATT = ATT;
