@@ -36,6 +36,8 @@ var BATTLE_START = function() {
                                 battle_begin();
                             } else {}
                         }
+                    }
+                    
                     });
             }
 
