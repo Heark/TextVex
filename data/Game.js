@@ -31,7 +31,7 @@ $(document).ready(function() {
         if(gotNum <= 100 ){
          // no battle   
         } else if(gotNum > 200){
-        callScene.Battle();
+        Scene.call.Battle();
         }
         
         })
