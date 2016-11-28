@@ -1,9 +1,8 @@
-
 var Scene = {}
 Scene[call] = {
 
-Battle: function() {
-
-}
+    Battle: function() {
+      BATTLE_START();
+    }
 
 }
