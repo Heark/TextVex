@@ -16,7 +16,7 @@ $(document).ready(function() {
     // Start Button
     $("#Start").click(function() {
             if (game_started == false) {
-                $("body").append("<center><button id=\"Walk\"  class=\"btn btn-success\" > Walk </button></center>");
+                $("body").append("<center><button id=\"move\"  class=\"btn btn-success\" > Walk </button></center>");
                 game_started = true;
             } else {
                 box.error("You already started!");
@@ -28,7 +28,7 @@ $(document).ready(function() {
     // Walk Button
 
 })
-$("#Walk").click(function() {
+$("#move").click(function() {
         gotNum = Tools.randNum(1, 200);
         console.log(gotNum)
         if (gotNum <= 100) {
