@@ -1,8 +1,11 @@
-var Scene = {}
-Scene[call] = {
+var Scene = {
+    
+    call: {
 
-    Battle: function() {
-      BATTLE_START();
+        Battle: function() {
+            BATTLE_START();
+        }
+
+
     }
-
 }
