@@ -28,6 +28,7 @@ $(document).ready(function() {
     // Walk Button
         $("#Walk").click(function(){
         gotNum = Tools.randNum(1, 200);
+        console.log(gotNum)
         if(gotNum <= 100 ){
          // no battle   
         } else if(gotNum > 200){
