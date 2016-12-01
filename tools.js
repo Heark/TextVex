@@ -2,8 +2,8 @@ console.log("Loaded Tools");
 Tools = {
 shuffle: function(contents) {
             var output;
-            this.contents = contents;
-            output = this.contents[Math.floor(Math.random() * this.contents.length)];
+            contents = this.contents;
+            output = contents[Math.floor(Math.random() * contents.length)];
             return output;
 },
   
