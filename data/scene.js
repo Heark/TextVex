@@ -1,6 +1,4 @@
-var Scene = {
-    
-    call: {
+var callScene = {
 
         Battle:  function() {
 
@@ -52,7 +50,6 @@ var Scene = {
                 if (enemy_turn == true) {}
 
             }
-}
 
 
     }
