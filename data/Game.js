@@ -26,9 +26,7 @@ $(document).ready(function() {
         // End of Start Button
 
     // Walk Button
-
-})
-$("#move").click(function() {
+    $("#move").click(function() {
         gotNum = Tools.randNum(1, 200);
         console.log(gotNum)
         if (gotNum <= 100) {
@@ -38,4 +36,7 @@ $("#move").click(function() {
         }
 
     })
+
+})
+
     // End of Walk Button
