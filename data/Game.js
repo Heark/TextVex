@@ -27,6 +27,7 @@ $(document).ready(function() {
 
     // Walk Button
     $("#move").click(function() {
+        /*
         gotNum = Tools.randNum(1, 200);
         console.log(gotNum)
         if (gotNum <= 100) {
@@ -34,6 +35,8 @@ $(document).ready(function() {
         } else if (gotNum > 200) {
             Scene.call.Battle();
         }
+        */
+        box.info("Test!")
 
     })
 
