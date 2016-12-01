@@ -9,7 +9,7 @@ var Scene = {
             POSS_EM = [slime];
         } //else if () {}
 
-        var sel_em = Tools.shuffle(POSS_EM);
+        var sel_em = slime
 
         // End of enemy selection
 
