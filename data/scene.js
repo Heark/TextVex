@@ -1,4 +1,5 @@
-var callScene = {
+var Scene = {
+        Call: {
 
         Battle:  function() {
 
@@ -51,6 +52,6 @@ var callScene = {
 
             }
 
-
+        }
     }
 }
