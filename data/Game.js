@@ -16,7 +16,7 @@ $(document).ready(function() {
     // Start Button
     $("#Start").click(function() {
             if (game_started == false) {
-                $("body").append("<center><button id=\"move\"  class=\"btn btn-success\" > Walk </button></center>");
+                $("div").append("<center><button id=\"move\"  class=\"btn btn-success\" > Walk </button></center>");
                 game_started = true;
             } else {
                 box.error("You already started!");
