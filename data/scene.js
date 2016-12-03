@@ -5,7 +5,7 @@ var Scene = {
 
         // Select Random enemy
         var POSS_EM;
-        if (Hero.LVL >= 5) {
+        if (Hero.LVL <= 5) {
             POSS_EM = [slime];
         } //else if () {}
 
