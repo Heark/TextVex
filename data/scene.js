@@ -43,6 +43,7 @@ var Scene = {
                     
                     });
             }
+        battle_begin();
 
             function go() {
                 if (player_turn == true) {}
