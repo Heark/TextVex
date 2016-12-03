@@ -9,7 +9,7 @@ var Scene = {
             POSS_EM = [slime];
         } //else if () {}
 
-        var sel_em = slime
+        var sel_em = Tools.shuffle(POSS_EM);
 
         // End of enemy selection
 
@@ -35,8 +35,8 @@ var Scene = {
                         } else {
                             flee_num = Tools.randNum(1, 100);
                             if (flee_num > 50) {
-                                bootbox.alert("Could not escape!");
                                 battle_begin();
+                                bootbox.alert("Could not escape!");
                             } else {}
                         }
                     }
