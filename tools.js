@@ -1,10 +1,7 @@
 console.log("Loaded Tools");
 Tools = {
-shuffle: function(contents) {
-            var output;
-            var contents = this.contents;
-            output = contents[Math.floor(Math.random() * contents.length)];
-            return output;
+shuffle: function(items) {
+return items[Math.floor(Math.random()*items.length)];
 },
   
 randNum: function(min, max) {
