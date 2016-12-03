@@ -4,7 +4,7 @@ function moveClick() {
         console.log(gotNum)
         if (gotNum <= 100) {
             // no battle   
-        } else if (gotNum > 200) {
+        } else {
             Scene.Call.Battle();
         }
 }
