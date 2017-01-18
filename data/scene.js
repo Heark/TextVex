@@ -33,8 +33,8 @@ var Scene = {
                         if (result == true) {
                             go();
                         } else {
-                            flee_num = Tools.randNum(1, 100);
-                            if (flee_num > 50) {
+                            var can_escape;
+                            if (can_escape == false) {
                                 battle_begin();
                                 bootbox.alert("Could not escape!");
                             } else {}
@@ -44,9 +44,32 @@ var Scene = {
                     });
             }
         battle_begin();
-
+function clearInterface() {
+        
+}
             function go() {
-                if (player_turn == true) {}
+                    player_turn = true;
+                if (player_turn == true) {
+                bootbox.prompt({
+    message: "What do you do?",
+    buttons: {
+        confirm: {
+            label: 'Yes',
+            className: 'btn-success'
+        },
+        cancel: {
+            label: 'No',
+            className: 'btn-danger'
+        }, 
+        test: {
+                label: 'test',
+                className: 'btn-danger'
+        }
+    },
+    callback: function (result) {
+        console.log('This was logged in the callback: ' + result);
+    }
+                }
 
 
                 if (enemy_turn == true) {}
