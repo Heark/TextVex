@@ -50,7 +50,7 @@ function clearInterface() {
             function go() {
                     player_turn = true;
                 if (player_turn == true) {
-                bootbox.prompt({
+                bootbox.dialog({
     message: "What do you do?",
     buttons: {
         confirm: {
